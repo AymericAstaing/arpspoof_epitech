@@ -1,4 +1,4 @@
-# arpspoof_epitech (TECH 2 2018-2019)
+# ARP spoof_epitech (TECH 2 2018-2019)
 
 The goal of this project to create a program that spoofs ARP packets.
 
