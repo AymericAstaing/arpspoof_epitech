@@ -1,5 +1,7 @@
 # ARP spoof_epitech (TECH 2 2018-2019)
 
+/!\ WORKS ON LINUX ONLY (linux socket lib)
+
 The goal of this project to create a program that spoofs ARP packets.
 
 The program must first broadcast an ARP packet in order to retrieve the corresponding MAC address of
