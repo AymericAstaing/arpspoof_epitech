@@ -17,19 +17,19 @@ to launch:
 
     - make / make re
     
-* BASIC USAGE (execute very carefully):
+BASIC USAGE (execute very carefully):
 
     - sudo ./myARPspoof 42.42.42.42 192.168.1.1 wlo1
     
-* ADVANCED USAGE:
+ADVANCED USAGE:
     
-- PRINT BROADCAST:
+- print broadcast:
 
 If the --printBroadcast option is passed as a parameter to the program, the program must print on stdout the ARP packet (step 1 - the ARP request packet sent to broadcast) followed by a newline and exit WITHOUT actually sending the packet. 
     
     ./myARPspoof 42.42.42.42 192.168.1.1 wlo1 ––printBroadcast
     
-- PRINT SPOOF:
+- print spoof:
 
 If the --printSpoof [MAC addr] option is passed as a parameter to the program, the program must print the
 spoofed ARP packet (step 3) and exit:
