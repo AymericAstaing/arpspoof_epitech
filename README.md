@@ -15,9 +15,9 @@ constraints:
     - NO libraries are allowed, only the standard C library!  
     - The socket that sends arbitrary ARP packets should be called with SOCK_RAW as second parameter (and not SOCK_DGRAM).
 
-to launch:
+to build:
 
-    - make / make re
+    make / make re
     
 BASIC USAGE (execute very carefully):
 
