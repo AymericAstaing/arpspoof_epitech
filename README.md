@@ -17,11 +17,11 @@ to launch:
 
     - make / make re
     
--BASIC USAGE (execute very carefully):
+* BASIC USAGE (execute very carefully):
 
     - sudo ./myARPspoof 42.42.42.42 192.168.1.1 wlo1
     
--ADVANCED USAGE:
+* ADVANCED USAGE:
     
 - PRINT BROADCAST:
 
